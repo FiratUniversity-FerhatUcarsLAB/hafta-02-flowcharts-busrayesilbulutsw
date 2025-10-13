@@ -1,0 +1,1 @@
+Bu sistem, hastaların doktor randevusu almasını sağlar. Kullanıcı TC kimlik numarasını ve bilgilerini girerek giriş yapar. Poliklinik ve doktor seçimi yapılır. Uygun tarih ve saat listelenir. Kullanıcı uygun bir randevu seçer ve onaylar. Sistem, randevuyu kaydeder ve kullanıcıya bilgi verir.

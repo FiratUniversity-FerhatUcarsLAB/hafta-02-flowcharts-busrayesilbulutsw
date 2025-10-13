@@ -1,0 +1,16 @@
+Başla
+Öğrenciden giriş bilgilerini al
+Giriş doğrulaması yap
+
+Eğer geçerli ise:
+    Ders listesi göster
+    Öğrenci ders seçimi yapar
+    Seçilen derslerin kontenjan ve saat çakışması kontrol edilir
+    Eğer sorun yoksa:
+        Dersleri kaydet
+        "Kayıt başarılı" mesajı göster
+    Aksi halde:
+        "Kayıt başarısız, çakışma veya kontenjan dolu" mesajı göster
+Aksi halde:
+    "Giriş başarısız" mesajı göster
+Bitir

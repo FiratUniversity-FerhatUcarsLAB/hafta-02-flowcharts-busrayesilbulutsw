@@ -1,0 +1,1 @@
+Bu sistem, bir akıllı evin güvenlik durumunu kontrol eder. Ev sahibi kapı ve pencere sensörlerini, hareket algılayıcıları ve güvenlik kamerası durumlarını görebilir. Güvenlik ihlali algılandığında sistem alarm verir ve ev sahibine bildirim gönderir. Sistem uzaktan etkinleştirilebilir veya devre dışı bırakılabilir.

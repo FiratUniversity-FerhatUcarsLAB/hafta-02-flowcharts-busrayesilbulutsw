@@ -1,0 +1,16 @@
+Başla
+Kullanıcıdan TC kimlik numarası ve şifre al
+Kimlik doğrulama yap
+
+Eğer geçerli ise:
+    Poliklinik seçimi yap
+    Doktor seçimi yap
+    Uygun tarih ve saatleri listele
+    Kullanıcıdan tarih ve saat seçmesini iste
+    Seçilen randevuyu kaydet
+    Kullanıcıya “Randevunuz oluşturuldu” mesajı göster
+
+Aksi halde:
+    "Giriş başarısız" mesajı göster
+
+Bitir

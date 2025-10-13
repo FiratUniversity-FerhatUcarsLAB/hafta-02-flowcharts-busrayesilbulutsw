@@ -1,0 +1,1 @@
+Bu sistem, öğrencilerin üniversite ders kayıt işlemlerini yapmasını sağlar. Öğrenci sisteme giriş yapar, almak istediği dersleri seçer. Sistem derslerin kontenjan ve saat çakışmalarını kontrol eder. Uygun olan dersler öğrenciye kayıt edilir. Kayıt işlemi tamamlandığında öğrenciye onay mesajı gösterilir.

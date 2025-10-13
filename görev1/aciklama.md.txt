@@ -1,0 +1,1 @@
+Bu sistem, bir ATM cihazından para çekme işlemini simüle eder. Kullanıcı kartını takar ve şifresini girer. Şifre doğruysa sistem kullanıcıdan çekmek istediği miktarı ister. Eğer hesapta yeterli para varsa işlem yapılır, yoksa uyarı verilir. İşlem sonunda sistem kapanır.

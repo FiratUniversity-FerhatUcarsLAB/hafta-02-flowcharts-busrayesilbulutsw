@@ -1,0 +1,20 @@
+START
+Display "Please insert your card"
+Wait for card insertion
+Display "Enter your PIN"
+Read PIN
+If PIN is correct THEN
+    Display "Enter amount to withdraw"
+    Read amount
+    If amount <= account balance THEN
+        Dispense cash
+        Subtract amount from account balance
+        Display "Please take your cash"
+    ELSE
+        Display "Insufficient balance"
+    ENDIF
+ELSE
+    Display "Incorrect PIN"
+ENDIF
+Display "Thank you. Goodbye."
+END

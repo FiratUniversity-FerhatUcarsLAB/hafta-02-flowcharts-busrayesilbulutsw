@@ -1,0 +1,23 @@
+Başla
+Toplam = 0
+Sepet = boş liste
+
+TEKRARLA
+    Ürün seç
+    Ürün fiyatını al
+    Sepete ürünü ekle
+    Toplam = Toplam + Ürün fiyatı
+    Başka ürün eklemek istiyor musun? (Evet/Hayır)
+    Eğer cevap Hayır ise döngüden çık
+
+Sepeti göster
+Toplam tutarı göster
+Siparişi onaylıyor musun? (Evet/Hayır)
+
+Eğer Evet ise:
+    Ödeme ekranına yönlendir
+    Sipariş tamamlandı mesajı göster
+Aksi halde:
+    Sipariş iptal edildi mesajı göster
+
+Bitir

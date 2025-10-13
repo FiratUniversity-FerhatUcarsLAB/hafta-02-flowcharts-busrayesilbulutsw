@@ -1,0 +1,24 @@
+Başla
+Kullanıcıdan kimlik doğrulama bilgilerini al
+
+Eğer doğrulama başarılıysa:
+    Sensör verilerini kontrol et
+    - Kapılar açık mı?
+    - Pencereler açık mı?
+    - Hareket algılandı mı?
+    - Kamera görüntüsü var mı?
+
+    Eğer herhangi bir güvenlik ihlali varsa:
+        Alarmı etkinleştir
+        Ev sahibine bildirim gönder
+
+    Aksi halde:
+        “Ev güvenli” mesajı göster
+
+    Kullanıcı isterse:
+        Sistemi etkinleştir/devre dışı bırak
+
+Aksi halde:
+    “Giriş başarısız” mesajı göster
+
+Bitir

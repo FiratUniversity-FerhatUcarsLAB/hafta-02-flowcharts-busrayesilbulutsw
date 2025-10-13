@@ -1,0 +1,1 @@
+Bu sistem, kullanıcının online alışveriş sırasında ürünleri sepete eklemesini ve toplam tutarı hesaplamasını sağlar. Kullanıcı birden fazla ürün ekleyebilir. Eklenen her ürünün fiyatı toplam tutara yansıtılır. Alışveriş sonunda kullanıcı siparişi onaylayabilir ya da iptal edebilir. Onaylarsa ödeme sayfasına yönlendirilir.
