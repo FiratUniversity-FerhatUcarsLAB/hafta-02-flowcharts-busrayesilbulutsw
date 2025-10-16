@@ -1,0 +1,12 @@
+[Konuşma Geçmişi]
+
+Kullanıcı: Hastane randevu sistemi nasıl tasarlanmalı?  
+ChatGPT: Doktor seçimi, saat kontrolü, randevu kaydı gibi bileşenler olmalı.  
+Kullanıcı: Pseudocode yazabilir misin?  
+ChatGPT: (pseudocode.md içeriği)  
+Kullanıcı: Dot formatında akış diyagramı verebilir misin?  
+ChatGPT: (flowchart.dot içeriği)  
+Kullanıcı: Kısa açıklaması ne olur?  
+ChatGPT: (açıklama.md içeriği)  
+Kullanıcı: Ve llm konuşma geçmişini koy, tamam mı?  
+ChatGPT: Evet, bu dosyada sohbet geçmişimiz yer alır.

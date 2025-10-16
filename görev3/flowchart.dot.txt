@@ -1,0 +1,15 @@
+digraph Randevu {
+    Start -> SorguIstek;
+    SorguIstek -> Bitir [label="Hayır"];
+    SorguIstek -> GösterDoktor;
+    GösterDoktor -> Seçim;
+    Seçim -> KontrolSaat;
+    KontrolSaat -> SaatUygunDegil [label="Hayır"];
+    SaatUygunDegil -> GösterDoktor;
+    KontrolSaat -> RandevuAl [label="Evet"];
+    RandevuAl -> Confirm;
+    Confirm -> End;
+
+    Start [shape=ellipse];
+    End [shape=ellipse];
+}
