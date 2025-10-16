@@ -1,0 +1,12 @@
+[Konuşma Geçmişi]
+
+Kullanıcı: ATM sisteminin nasıl çalışacağını gösterir misiniz?  
+ChatGPT: Evet, kullanıcı kart takar, PIN girer, sistem doğrular, bakiye kontrolü yapar, para verir.  
+Kullanıcı: Pseudocode yapar mısın?  
+ChatGPT: (pseudocode.md içeriği)  
+Kullanıcı: Akış diyagramını .dot formatıyla verir misin?  
+ChatGPT: (flowchart.dot içeriği)  
+Kullanıcı: Kısa açıklama yazabilir misin?  
+ChatGPT: (açıklama.md içeriği)  
+Kullanıcı: Ve llm konuşma geçmişi de ekle, tamam mı?  
+ChatGPT: Evet, bu dosya seninle olan bu konuşma geçmişini içerir.

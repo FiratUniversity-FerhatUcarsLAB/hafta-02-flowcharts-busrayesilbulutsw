@@ -1,0 +1,11 @@
+digraph ATM {
+    Start -> "Kart Tak" -> "PIN Gir"
+    "PIN Gir" -> "PIN Doğru?" 
+    "PIN Doğru?" -> "Miktar Gir" [label="Evet"]
+    "PIN Doğru?" -> "Kart İade / Hata" [label="Hayır"]
+    "Miktar Gir" -> "Yeterli Bakiye?"
+    "Yeterli Bakiye?" -> "Parayı Ver" [label="Evet"]
+    "Yeterli Bakiye?" -> "Yetersiz Bakiye" [label="Hayır"]
+    "Parayı Ver" -> "Kart İade"
+    "Kart İade" -> End
+}
