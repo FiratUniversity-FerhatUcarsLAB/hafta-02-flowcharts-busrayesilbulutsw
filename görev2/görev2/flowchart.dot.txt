@@ -1,0 +1,20 @@
+digraph Sepet {
+    Start -> ShowProducts;
+    ShowProducts -> ÜrünSeç;
+    ÜrünSeç -> AddCart;
+    AddCart -> ShowCart;
+    ShowCart -> DevamSorgu;
+    DevamSorgu -> ÜrünSeç [label="Evet"];
+    DevamSorgu -> Ödeme [label="Hayır"];
+    Ödeme -> KartKontrol;
+    KartKontrol -> HataKart [label="Kart bilgi hatalı"];
+    KartKontrol -> LimitKontrol [label="Kart bilgi doğru"];
+    LimitKontrol -> HataLimit [label="Limit yetersiz"];
+    LimitKontrol -> ÖdemeBaşarılı [label="Limit yeterli"];
+    ÖdemeBaşarılı -> End;
+    HataKart -> End;
+    HataLimit -> End;
+
+    Start [shape=ellipse];
+    End [shape=ellipse];
+}

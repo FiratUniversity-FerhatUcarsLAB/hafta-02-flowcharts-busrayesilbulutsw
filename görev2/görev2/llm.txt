@@ -1,0 +1,12 @@
+[Konuşma Geçmişi]
+
+Kullanıcı: Online alışveriş sepeti sistemi nasıl modellemek istersin?  
+ChatGPT: Ürün seçimi, sepet işlemleri, ödeme adımları gerekir.  
+Kullanıcı: Pseudocode’nu paylaşır mısın?  
+ChatGPT: (pseudocode.md içeriği)  
+Kullanıcı: Akış diyagramını dot formatında verebilir misin?  
+ChatGPT: (flowchart.dot içeriği)  
+Kullanıcı: Açıklama isterim…  
+ChatGPT: (açıklama.md içeriği)  
+Kullanıcı: Konuşma geçmişini de llm dosyasında koy, olur mu?  
+ChatGPT: Tabii, işte bu dosya seninle bu sohbetin geçmişini içerir.
