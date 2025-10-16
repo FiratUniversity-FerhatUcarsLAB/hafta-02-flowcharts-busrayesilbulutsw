@@ -1,0 +1,12 @@
+[Konuşma Geçmişi]
+
+Kullanıcı: Akıllı ev güvenlik sistemi nasıl olmalı?  
+ChatGPT: Kapı, pencere, hareket sensörleri ile alarm tetiklemeleri olmalı.  
+Kullanıcı: Pseudocode ver lütfen.  
+ChatGPT: (pseudocode.md içeriği)  
+Kullanıcı: Dot formatındaki akış diyagramı var mı?  
+ChatGPT: (flowchart.dot içeriği)  
+Kullanıcı: Kısa açıklama versene.  
+ChatGPT: (açıklama.md içeriği)  
+Kullanıcı: Ve llm konuşma geçmişini ekle.  
+ChatGPT: Tabii, bu dosya da sohbet geçmişimizi içeriyor.

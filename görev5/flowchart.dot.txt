@@ -1,0 +1,32 @@
+digraph Guvenlik {
+    Start -> InitSensör;
+    InitSensör -> Döngü;
+
+    Döngü -> KontrolKapı;
+    KontrolKapı -> AlarmKapı [label="Açık"];
+    KontrolKapı -> KontrolPencere [label="Kapalı"];
+
+    AlarmKapı -> GönderUyarıKapı;
+    GönderUyarıKapı -> Döngü;
+
+    KontrolPencere -> AlarmPencere [label="Açık"];
+    KontrolPencere -> KontrolHareket [label="Kapalı"];
+
+    AlarmPencere -> GönderUyarıPencere;
+    GönderUyarıPencere -> Döngü;
+
+    KontrolHareket -> HarekVar [label="Evet"];
+    KontrolHareket -> Döngü [label="Hayır"];
+
+    HarekVar -> KontrolZaman;
+    KontrolZaman -> AlarmHareket [label="Şart sağlanır"];
+    KontrolZaman -> Döngü [label="Şart sağlanmaz"];
+
+    AlarmHareket -> GönderUyarıHareket;
+    GönderUyarıHareket -> Döngü;
+
+    Döngü -> Sleep;
+    Sleep -> Döngü;
+
+    Start [shape=ellipse];
+}
