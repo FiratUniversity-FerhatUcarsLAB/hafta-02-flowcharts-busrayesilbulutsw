@@ -1,0 +1,12 @@
+[Konuşma Geçmişi]
+
+Kullanıcı: Üniversite ders kayıt sistemi nasıl olur?  
+ChatGPT: Öğrenci girişi, ders seçimi, ön şart ve çakışma kontrolü olmalı.  
+Kullanıcı: Pseudocode verir misin?  
+ChatGPT: (pseudocode.md içeriği)  
+Kullanıcı: Dot akış diyagramı?  
+ChatGPT: (flowchart.dot içeriği)  
+Kullanıcı: Açıklama?  
+ChatGPT: (açıklama.md içeriği)  
+Kullanıcı: llm geçmişi de ekle.  
+ChatGPT: Evet, bu dosyada sohbet geçmişimiz yer alır.

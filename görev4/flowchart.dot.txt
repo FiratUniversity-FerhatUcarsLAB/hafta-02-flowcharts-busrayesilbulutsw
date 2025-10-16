@@ -1,0 +1,22 @@
+digraph DersKayit {
+    Start -> Giriş;
+    Giriş -> KontrolGiriş;
+    KontrolGiriş -> GirişHata [label="Hata"];
+    KontrolGiriş -> DersListe [label="Başarılı"];
+    GirişHata -> End;
+
+    DersListe -> DersSeçim;
+    DersSeçim -> KontrolKayıt;
+    KontrolKayıt -> HataKayıt [label="Hata"];
+    KontrolKayıt -> EkleDers [label="OK"];
+    HataKayıt -> DersSeçim;
+    EkleDers -> DersSeçim;
+
+    DersSeçim -> DevamSorgu;
+    DevamSorgu -> DersSeçim [label="Evet"];
+    DevamSorgu -> Tamamla [label="Hayır"];
+    Tamamla -> End;
+
+    Start [shape=ellipse];
+    End [shape=ellipse];
+}
